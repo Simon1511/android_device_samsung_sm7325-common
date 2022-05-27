@@ -48,6 +48,7 @@ PRODUCT_PACKAGES += \
     init.vendor.rilchip.rc \
     init.vendor.rilcommon.rc \
     init.vendor.sensors.rc \
+    ipa_fws.rc \
     ueventd.qcom.rc \
     wifi_qcom_wcn6750.rc \
     wifi_sec.rc
@@ -55,6 +56,7 @@ PRODUCT_PACKAGES += \
 # Vendor scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
+    init.ipa_fws.sh \
     init.kernel.post_boot.sh \
     init.kernel.post_boot-yupik.sh \
     init.qcom.class_core.sh \

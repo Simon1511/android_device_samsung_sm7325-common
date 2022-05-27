@@ -12,6 +12,10 @@ persist.vendor.sec.fastchg_enabled               u:object_r:vendor_fastcharge_pr
 # Fingerprint
 vendor.finger.down                               u:object_r:vendor_fingerprint_prop:s0
 
+# IPA
+ro.vendor.device.variant                         u:object_r:vendor_ipa_prop:s0
+ro.vendor.ipa.ver                                u:object_r:vendor_ipa_prop:s0
+
 # Perf
 ro.vendor.extension_library                      u:object_r:vendor_mpctl_prop:s0
 
