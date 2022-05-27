@@ -49,6 +49,7 @@
 /mnt/vendor/efs/wifi(/.*)?                   u:object_r:wifi_efs_file:s0
 
 # VENDOR
+/(vendor|system/vendor)/bin/init\.ipa_fws\.sh                                                               u:object_r:vendor_qti_init_shell_exec:s0
 /(vendor|system/vendor)/bin/factory\.ssc                                                                    u:object_r:factory_ssc_exec:s0
 /(vendor|system/vendor)/bin/hw/macloader                                                                    u:object_r:macloader_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.camera\.provider@4\.0-service\_64                 u:object_r:hal_camera_default_exec:s0
