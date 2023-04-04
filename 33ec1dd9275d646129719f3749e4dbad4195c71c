@@ -1,0 +1,228 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6198cf78_a5352054",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "boots",
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08890840_838ace8b",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "needed?",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 52
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a14a3120_0637c84e",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "split?",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 54
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef2c4e94_3e19df2a",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "needed?",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 49
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "839d98f2_760d47be",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "needed?",
+      "range": {
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 40
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60c050dc_ed304ba8",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "legacy or not?",
+      "range": {
+        "startLine": 207,
+        "startChar": 33,
+        "endLine": 207,
+        "endChar": 43
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "033875bc_837740df",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 480,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "remove?",
+      "range": {
+        "startLine": 480,
+        "startChar": 0,
+        "endLine": 480,
+        "endChar": 17
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d1f81a0_cce7cb75",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 482,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 482,
+        "startChar": 0,
+        "endLine": 482,
+        "endChar": 26
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa056f0d_da6c5c8f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 607,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "probably unneeded",
+      "range": {
+        "startLine": 600,
+        "startChar": 0,
+        "endLine": 607,
+        "endChar": 27
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2982d7c7_08bfcad7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1030,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-04T07:22:26Z",
+      "side": 1,
+      "message": "unneeded?",
+      "range": {
+        "startLine": 1030,
+        "startChar": 0,
+        "endLine": 1030,
+        "endChar": 65
+      },
+      "revId": "33ec1dd9275d646129719f3749e4dbad4195c71c",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    }
+  ]
+}
