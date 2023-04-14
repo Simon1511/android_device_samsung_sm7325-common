@@ -267,6 +267,12 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.0.vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor \
+    libstagefright_bufferpool@2.0.1.vendor \
+    libcodec2_hidl_plugin_stub.vendor \
+    libstagefright_bufferqueue_helper_novndk.vendor \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
