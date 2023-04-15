@@ -174,6 +174,7 @@ vendor/lib/libarcsoft_picportrait_video.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libexifa.camera.samsung.so
 vendor/lib/libcamxfdengine.so
+vendor/lib/libcamxqsatalgo.so
 vendor/lib/libarcsoft_super_night_raw.so
 vendor/lib/libjpegencoder_sw.unifunc.so
 vendor/lib/hw/camera.unihal.default.so
@@ -241,6 +242,7 @@ vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libexifa.camera.samsung.so
 vendor/lib64/libcamxfdengine.so
+vendor/lib64/libcamxqsatalgo.so
 vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libjpegencoder_sw.unifunc.so
 vendor/lib64/hw/camera.unihal.default.so
