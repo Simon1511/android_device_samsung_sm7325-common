@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed6c6f5f_d528ed69",
+        "filename": "rootdir/bin/init.ipa_fws.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-23T12:52:02Z",
+      "side": 1,
+      "message": "DATE -\u003e VERSION",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "2c04670439b1bf5d99f3442dc50a57ac2a771cd0",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    }
+  ]
+}
