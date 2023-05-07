@@ -17,6 +17,7 @@
 #include "ConvertUtils.h"
 #include <android-base/logging.h>
 #include <log/log.h>
+#include <fstream>
 
 using AidlSensorInfo = ::aidl::android::hardware::sensors::SensorInfo;
 using AidlSensorType = ::aidl::android::hardware::sensors::SensorType;
@@ -36,6 +37,15 @@ namespace android {
 namespace hardware {
 namespace sensors {
 namespace implementation {
+
+template <typename T>
+static T get(const std::string& path, const T& def) {
+    std::ifstream file(path);
+    T result;
+
+    file >> result;
+    return file.fail() ? def : result;
+}
 
 AidlSensorInfo convertSensorInfo(const V2_1SensorInfo& sensorInfo) {
     AidlSensorInfo aidlSensorInfo;
@@ -262,7 +272,29 @@ void convertToAidlEvent(const V2_1Event& hidlEvent, AidlEvent* aidlEvent) {
             break;
         }
         case V2_1SensorType::DEVICE_ORIENTATION:
-        case V2_1SensorType::LIGHT:
+        case V2_1SensorType::LIGHT: {
+            float light = hidlEvent.u.scalar;
+            int backlight = get("/sys/class/backlight/panel0-backlight/brightness", 0);
+            int als = get("/sys/class/sensors/light_sensor/lux", 0);
+
+            ALOGD("light sensor: lux: %f, backlight: %d, als: %d", light, backlight, als);
+
+            // We barely if ever see ALS values between 10 and 40
+            if (als > 40) {
+                if (backlight - als >= 0) {
+                    light = (float) backlight - (float) als;
+                } else if (als - backlight >= 0 ) {
+                    light = (float) als - (float) backlight;
+                } else {
+                    light = (float) als;
+                }
+            }
+
+            aidlEvent->payload.set<Event::EventPayload::scalar>(light);
+
+            ALOGD("light sensor: before lux: %f after lux: %f", hidlEvent.u.scalar, light);
+            break;
+        }
         case V2_1SensorType::PRESSURE:
         case V2_1SensorType::PROXIMITY:
         case V2_1SensorType::RELATIVE_HUMIDITY:
