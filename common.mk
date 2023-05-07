@@ -368,7 +368,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.samsung-multihal \
+    android.hardware.sensors-service.samsung-multihal.sm7325 \
     android.hardware.sensors@2.0-ScopedWakelock.vendor
 
 # Thermal
