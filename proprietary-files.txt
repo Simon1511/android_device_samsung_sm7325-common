@@ -619,6 +619,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 vendor/lib/libdisplayqos.so
+vendor/lib/libsdmcore.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-colormgr-algo.so
 vendor/lib/libsdm-diag.so
@@ -626,6 +627,7 @@ vendor/lib/libsdmextension.so
 vendor/lib/libdisplayskuutils.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib64/libdisplayqos.so
+vendor/lib64/libsdmcore.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
@@ -1184,16 +1186,16 @@ vendor/firmware/qca6750/qdss_trace_config.cfg
 vendor/firmware/qca6750/regdb.bin
 vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini
 
-# Wifi firmware (bootloader revision 3) - from A528BXXU3EWC6 (T)
-vendor/firmware/wpss.b00|ec9771fe39350cc2ff27c36e5fdb7f8f0ca4aeb3
-vendor/firmware/wpss.b01|1dc2cfa9983acea0c06b761d64b77cbe9baee4ca
-vendor/firmware/wpss.b02|1d01914176991452ba141f762ab9b7b32774ab9e
-vendor/firmware/wpss.b03|ac543c537d6779ca5ba08bb6c01fea1aca9d5053
-vendor/firmware/wpss.b04|6cf9481034d98db6d5e2d283f24f7f69f62a4cd9
-vendor/firmware/wpss.b05|4921bc0a7acc43180097eeba29a8e21bbf6270cc
-vendor/firmware/wpss.b06|aa2cdff7b662830ecc28261eb963ea5d78a06842
-vendor/firmware/wpss.b07|ccd078161284175e6ea66ba1314e79707894ea84
-vendor/firmware/wpss.mdt|d131a35f69dc2a780fa468c2b378bd187ecba2d8
+# Wifi firmware (bootloader revision 3)
+vendor/firmware/wpss.b00
+vendor/firmware/wpss.b01
+vendor/firmware/wpss.b02
+vendor/firmware/wpss.b03
+vendor/firmware/wpss.b04
+vendor/firmware/wpss.b05
+vendor/firmware/wpss.b06
+vendor/firmware/wpss.b07
+vendor/firmware/wpss.mdt
 
 # Wifi firmware (bootloader revision 1) - from A528BXXU1DWA4 (T)
 vendor/firmware/wpss/a528b/rev1/wpss.b00|bbbf98507f63f2fbc6f04ed5328d88190de9f124
