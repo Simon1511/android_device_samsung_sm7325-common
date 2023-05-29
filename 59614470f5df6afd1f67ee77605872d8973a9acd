@@ -24,6 +24,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0caa303b_ec6c255d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-29T17:05:55Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "bcc74c01_bb85cd55",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 143,
+        "endChar": 26
+      },
+      "revId": "59614470f5df6afd1f67ee77605872d8973a9acd",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6cd31814_d3ef605a",
@@ -47,6 +71,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a9826d1_c61afcae",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 399,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-29T17:05:55Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "6cd31814_d3ef605a",
+      "range": {
+        "startLine": 346,
+        "startChar": 0,
+        "endLine": 399,
+        "endChar": 42
+      },
+      "revId": "59614470f5df6afd1f67ee77605872d8973a9acd",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8ca3a809_ed6cae7c",
@@ -60,6 +108,30 @@
       "writtenOn": "2023-05-29T14:25:26Z",
       "side": 0,
       "message": "needed?",
+      "range": {
+        "startLine": 1005,
+        "startChar": 0,
+        "endLine": 1005,
+        "endChar": 22
+      },
+      "revId": "59614470f5df6afd1f67ee77605872d8973a9acd",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1318072_6dbbd217",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1005,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-29T17:05:55Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "8ca3a809_ed6cae7c",
       "range": {
         "startLine": 1005,
         "startChar": 0,
