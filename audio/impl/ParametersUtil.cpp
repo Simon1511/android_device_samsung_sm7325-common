@@ -161,6 +161,12 @@ Result ParametersUtil::setParam(const char* name, const DeviceAddress& address) 
     if (CoreUtils::deviceAddressToHal(address, &halDeviceType, halDeviceAddress) != NO_ERROR) {
         return Result::INVALID_ARGUMENTS;
     }
+
+    if (halDeviceType == AUDIO_DEVICE_OUT_BLUETOOTH_SCO
+          || halDeviceType == AUDIO_DEVICE_OUT_BLUETOOTH_SCO_CARKIT) {
+        halDeviceType = AUDIO_DEVICE_OUT_BLUETOOTH_SCO_HEADSET;
+    }
+
     AudioParameter params{String8(halDeviceAddress)};
     params.addInt(String8(name), halDeviceType);
     return setParams(params);
