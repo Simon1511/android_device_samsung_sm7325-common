@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d329b795_86bf7c31",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "disable?",
+      "range": {
+        "startLine": 5,
+        "startChar": 46,
+        "endLine": 5,
+        "endChar": 50
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d51d21fe_da49c4f3",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "stock mentions Built-In 2 Back mic?",
+      "range": {
+        "startLine": 14,
+        "startChar": 17,
+        "endLine": 14,
+        "endChar": 47
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1cbdcb5c_dc6d03fd",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "not there on stock,needed?",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 27
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e680904_1e1c6a4c",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "stock mentions 48000 stereo?",
+      "range": {
+        "startLine": 86,
+        "startChar": 30,
+        "endLine": 86,
+        "endChar": 96
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e62c2945_f7b3e9a3",
+        "filename": "audio/configs/audio_policy_configuration.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "only change name and type here?",
+      "range": {
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 30
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59faa0d2_86629aa3",
+        "filename": "audio/impl/ParametersUtil.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "needed?",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 168,
+        "endChar": 5
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fb36064_bb390b34",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-03T16:48:37Z",
+      "side": 1,
+      "message": "check VoIP with and without",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 36
+      },
+      "revId": "e94c6370942cf848e8acaee627d285f65bcac2f3",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    }
+  ]
+}
