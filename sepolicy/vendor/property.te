@@ -1,6 +1,9 @@
 # Fastcharge
 vendor_internal_prop(vendor_fastcharge_prop)
 
+# IPA
+vendor_internal_prop(vendor_wpss_firmware_prop)
+
 # power
 vendor_internal_prop(vendor_power_prop)
 

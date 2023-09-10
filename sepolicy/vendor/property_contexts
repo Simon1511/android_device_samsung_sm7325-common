@@ -9,6 +9,10 @@ persist.vendor.bt.                               u:object_r:vendor_bluetooth_pro
 # fastcharge
 persist.vendor.sec.fastchg_enabled               u:object_r:vendor_fastcharge_prop:s0
 
+# IPA
+ro.vendor.wpss.a52sxq                            u:object_r:vendor_wpss_firmware_prop:s0
+ro.vendor.wpss.m52xq                             u:object_r:vendor_wpss_firmware_prop:s0
+
 # Perf
 ro.vendor.extension_library                      u:object_r:vendor_mpctl_prop:s0
 
