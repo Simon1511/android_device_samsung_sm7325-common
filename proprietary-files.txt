@@ -621,14 +621,14 @@ vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib64/libadreno_utils.so
 
-# Display - from XQ-BC72 61.2.A.0.410
-vendor/lib64/libdpps.so|9caf32a0d3636af579ea6e1a6c5638a16ed19444
-vendor/lib64/librcmask.so|8feb479fe590b6aec282ce3342574d9113f80516
-vendor/lib64/libsdm-diag.so|393c9ad3e3ad3210515900627f65bf6e3633226e
-vendor/lib64/libsdmextension.so|4c32026ff8cb1270081881d4def7a2ad05ad0b80
-vendor/lib64/libdisplayskuutils.so|37e4d543c696a5c9f0c1b44fd7299a0bc7dba5e8
-vendor/lib64/libsdm-color.so|a83576915a146492d430711e273b9af9a95d4fed
-vendor/lib64/libqrtrclient.so|2474a708487c269c04afffbf755fff1686c6011c
+# Display - from A528BXXS5EWH4 (T)
+vendor/lib64/libdpps.so|9172a125e1fbfcf21c074641f174c2fd0dd2fd39
+vendor/lib64/librcmask.so|bd022c259cf8fe64b8e7efef04ec614f499eec03
+vendor/lib64/libsdm-diag.so|720089c4bc66897e1bfd84e7983b3c34f2c4eec8
+vendor/lib64/libsdmextension.so|fc4e4fda8c216cec54231a2bee938e1d5c3cd0d5
+vendor/lib64/libdisplayskuutils.so|93e1e44eaddd08d029fcd64090a8259f9fff6f78
+vendor/lib64/libsdm-color.so|aeb07689c1bfc885ef9c846c0148e6f1e3f7f0ac
+vendor/lib64/libqrtrclient.so|51c55fea28fa475ae9b2c64592f32802e6ba6c25
 
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
