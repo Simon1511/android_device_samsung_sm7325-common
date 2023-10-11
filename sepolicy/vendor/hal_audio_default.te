@@ -12,5 +12,8 @@ get_prop(hal_audio_default, vendor_radio_prop)
 allow hal_audio_default sysfs_audio_writable:file { getattr open write };
 allow hal_audio_default sysfs_audio_writable:dir search;
 
+# /efs/*/isc_cal
+allow hal_audio_default efs_file:file r_file_perms;
+
 # ro.multisim*
 dontaudit hal_audio_default { default_prop radio_prop }:file { getattr map open read };
