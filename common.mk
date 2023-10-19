@@ -350,7 +350,8 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson
+    libjson \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # Recovery
 PRODUCT_COPY_FILES += \
