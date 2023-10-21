@@ -22,6 +22,30 @@
       },
       "revId": "f876f29b167b9ac85c0d536f9ae40ae23b6de2f9",
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87e16f72_beba9e4e",
+        "filename": "sepolicy/vendor/hal_audio_default.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-21T09:44:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7400e703_0be23f22",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 51
+      },
+      "revId": "f876f29b167b9ac85c0d536f9ae40ae23b6de2f9",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     }
   ]
 }
