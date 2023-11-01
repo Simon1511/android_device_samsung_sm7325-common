@@ -1,0 +1,15 @@
+type callaudio_service, coredomain;
+type callaudio_service_exec, system_file_type, exec_type, file_type;
+
+init_daemon_domain(callaudio_service)
+
+hal_client_domain(callaudio_service, hal_audio)
+
+binder_call(callaudio_service, hwservicemanager)
+
+get_prop(callaudio_service, vendor_call_prop)
+set_prop(callaudio_service, vendor_call_prop)
+
+get_prop(callaudio_service, hwservicemanager_prop)
+
+allow callaudio_service hal_audio_hwservice:hwservice_manager find;
