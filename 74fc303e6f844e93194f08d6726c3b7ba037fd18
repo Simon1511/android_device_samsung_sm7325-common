@@ -24,6 +24,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "badc4e40_762d6fe1",
+        "filename": "audio/call/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-01T12:38:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cdb4bf18_ab3db54d",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 37
+      },
+      "revId": "74fc303e6f844e93194f08d6726c3b7ba037fd18",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d9788d8e_880e7c51",
@@ -70,6 +94,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "575647ef_19571fe9",
+        "filename": "audio/call/callaudio_service.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-01T12:38:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "285c71e4_df766b35",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 5
+      },
+      "revId": "74fc303e6f844e93194f08d6726c3b7ba037fd18",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49a64ef6_de66d092",
@@ -83,6 +131,30 @@
       "writtenOn": "2023-11-01T12:05:30Z",
       "side": 1,
       "message": "remove later",
+      "range": {
+        "startLine": 216,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 7
+      },
+      "revId": "74fc303e6f844e93194f08d6726c3b7ba037fd18",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18a5d4c4_67001d16",
+        "filename": "audio/impl/PrimaryDevice.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-01T12:38:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49a64ef6_de66d092",
       "range": {
         "startLine": 216,
         "startChar": 0,
