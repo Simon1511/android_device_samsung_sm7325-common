@@ -219,7 +219,7 @@ Return<Result> PrimaryDevice::setMode(AudioMode mode) {
      * For the g_call_sim_slot parameter 0x01 describes SIM1 and 0x02 SIM2.
      */
 
-    char simSlot[92];
+/*    char simSlot[92];
 
     // This prop returns either -1 (no SIM is calling),
     // 0 (SIM1 is calling) or 1 (SIM2 is calling)
@@ -240,7 +240,7 @@ Return<Result> PrimaryDevice::setMode(AudioMode mode) {
     } else if (strcmp(simSlot, "-1") == 0) {
         // No call
         mDevice->halSetParameters("call_state=1;g_call_state=1");
-    }
+    }*/
 
     // INVALID, CURRENT, CNT, MAX are reserved for internal use.
     // TODO: remove the values from the HIDL interface

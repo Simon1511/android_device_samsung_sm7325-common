@@ -1,0 +1,4 @@
+type callaudio_service, domain;
+type callaudio_service_exec, vendor_file_type, exec_type, file_type;
+
+init_daemon_domain(callaudio_service)
