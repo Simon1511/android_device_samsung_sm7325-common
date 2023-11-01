@@ -84,7 +84,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener
+    libvolumelistener \
+    callaudio.samsung_sm7325
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/audio/configs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \

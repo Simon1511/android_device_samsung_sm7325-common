@@ -1,0 +1,19 @@
+service callaudio_service /system_ext/bin/callaudio.samsung_sm7325
+    oneshot
+    disabled
+
+on boot
+    setprop vendor.calls.callaudio_state 0
+
+on property:vendor.calls.slotid=0 && property:vendor.calls.callaudio_state=0
+    stop audioserver
+    start audioserver
+    start callaudio_service
+
+on property:vendor.calls.slotid=1 && property:vendor.calls.callaudio_state=0
+    stop audioserver
+    start audioserver
+    start callaudio_service
+
+on property:vendor.calls.slotid=-1 && property:vendor.calls.callaudio_state=1
+    setprop vendor.calls.callaudio_state 0
