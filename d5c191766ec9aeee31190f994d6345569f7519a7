@@ -71,6 +71,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6403d9ba_278998b5",
+        "filename": "audio/call/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T16:12:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef647a5e_eb255eb1",
+      "range": {
+        "startLine": 17,
+        "startChar": 10,
+        "endLine": 17,
+        "endChar": 37
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8db866d1_1a187e35",
