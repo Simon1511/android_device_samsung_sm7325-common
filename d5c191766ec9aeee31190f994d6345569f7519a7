@@ -24,6 +24,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f63fba89_d10018f2",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:36:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a85b317_13fbcdde",
+      "range": {
+        "startLine": 215,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 65
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ef647a5e_eb255eb1",
@@ -70,6 +94,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5c1cd33_b815b11c",
+        "filename": "audio/call/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:36:13Z",
+      "side": 1,
+      "message": "not possible due to SePolicy",
+      "parentUuid": "8db866d1_1a187e35",
+      "range": {
+        "startLine": 19,
+        "startChar": 4,
+        "endLine": 19,
+        "endChar": 30
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ecfa15c_d2363536",
@@ -83,6 +131,30 @@
       "writtenOn": "2023-11-02T15:03:50Z",
       "side": 1,
       "message": "needed?",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 48
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1bb0083_5b97818b",
+        "filename": "sepolicy/private/callaudio_service.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:36:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ecfa15c_d2363536",
       "range": {
         "startLine": 8,
         "startChar": 0,
@@ -116,6 +188,30 @@
       "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bc226ce_d0ddfe07",
+        "filename": "sepolicy/private/callaudio_service.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:36:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c6c4ba95_105b66f8",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 67
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "986c9cd6_26c35b05",
@@ -129,6 +225,30 @@
       "writtenOn": "2023-11-02T15:03:50Z",
       "side": 1,
       "message": "remove",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 59
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8be5340_165653ad",
+        "filename": "sepolicy/vendor/hal_audio_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:36:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "986c9cd6_26c35b05",
       "range": {
         "startLine": 19,
         "startChar": 0,
