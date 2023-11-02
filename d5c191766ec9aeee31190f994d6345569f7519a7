@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a85b317_13fbcdde",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:03:50Z",
+      "side": 1,
+      "message": "maybe not needed?",
+      "range": {
+        "startLine": 215,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 65
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef647a5e_eb255eb1",
+        "filename": "audio/call/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:03:50Z",
+      "side": 1,
+      "message": "rename maybe and change path",
+      "range": {
+        "startLine": 17,
+        "startChar": 10,
+        "endLine": 17,
+        "endChar": 37
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8db866d1_1a187e35",
+        "filename": "audio/call/Android.bp",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:03:50Z",
+      "side": 1,
+      "message": "keep in /vendor?",
+      "range": {
+        "startLine": 19,
+        "startChar": 4,
+        "endLine": 19,
+        "endChar": 30
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ecfa15c_d2363536",
+        "filename": "sepolicy/private/callaudio_service.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:03:50Z",
+      "side": 1,
+      "message": "needed?",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 48
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6c4ba95_105b66f8",
+        "filename": "sepolicy/private/callaudio_service.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:03:50Z",
+      "side": 1,
+      "message": "needed?",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 67
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "986c9cd6_26c35b05",
+        "filename": "sepolicy/vendor/hal_audio_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T15:03:50Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 59
+      },
+      "revId": "d5c191766ec9aeee31190f994d6345569f7519a7",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    }
+  ]
+}
