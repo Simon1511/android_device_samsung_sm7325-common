@@ -64,11 +64,14 @@ function blob_fixup() {
             # Replace libutils with vndk30 libutils
             "${PATCHELF}" --replace-needed libutils.so libutils-v30.so "${2}"
             ;;
-        vendor/lib64/libsec-ril.so)
+        vendor/lib64/libsec-ril.so|vendor/lib64/libsec-ril-dsds.so)
+            # Replace SlotID prop
             sed -i 's/ril.dds.call.slotid/vendor.calls.slotid/g' "${2}"
-            ;;
-        vendor/lib64/libsec-ril-dsds.so)
-            sed -i 's/ril.dds.call.slotid/vendor.calls.slotid/g' "${2}"
+            # NOP SmsCenter::IsEmpty() check
+            xxd -p "${2}" | tr -d \\n > "${2}".hex
+            sed -i "s/e0010036e80240b91f0500716b010054/1f2003d51f2003d51f2003d51f2003d5/g" "${2}".hex
+            xxd -r -p "${2}".hex > "${2}"
+            rm "${2}".hex
             ;;
         vendor/lib64/hw/gatekeeper.mdfpp.so|vendor/lib64/libskeymaster4device.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
