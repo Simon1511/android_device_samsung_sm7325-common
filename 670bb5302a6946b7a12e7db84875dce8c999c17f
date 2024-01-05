@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e742fb8_4016791c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-01-05T17:27:23Z",
+      "side": 1,
+      "message": "A736B wifi fw rev 6 mounts",
+      "revId": "670bb5302a6946b7a12e7db84875dce8c999c17f",
+      "serverId": "f2ad53df-6715-461d-bac1-42871177773f"
+    }
+  ]
+}
