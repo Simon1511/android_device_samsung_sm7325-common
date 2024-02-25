@@ -2,19 +2,19 @@
    {
       "repository":"kernel_samsung_sm7325",
       "target_path":"kernel/samsung/sm7325",
-      "branch":"thirteen",
+      "branch":"fourteen",
       "remote":"pixel-devices"
    },
    {
       "repository":"vendor_samsung_sm7325-common",
       "target_path":"vendor/samsung/sm7325-common",
-      "branch":"thirteen",
+      "branch":"fourteen",
       "remote":"pixel-devices-blobs"
    },
    {
       "repository":"hardware_samsung",
       "target_path":"hardware/samsung",
-      "branch":"thirteen",
+      "branch":"fourteen",
       "remote":"pixel"
    }
 ]
