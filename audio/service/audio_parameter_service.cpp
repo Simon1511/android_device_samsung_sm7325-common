@@ -24,13 +24,13 @@ using android::sp;
 using ::android::hardware::hidl_string;
 
 int main() {
-    sp<::android::hardware::audio::V7_0::IDevice> audioDevice;
+    sp<::android::hardware::audio::V7_0::IPrimaryDevice> audioDevice;
 
     LOG(DEBUG) << "Passing g_call_sim_slot parameter";
 
     if (!audioDevice) {
-        ::android::hardware::audio::V7_0::IDevicesFactory::getService()->openDevice(
-            "primary", [&](::android::hardware::audio::V7_0::Result, const sp<::android::hardware::audio::V7_0::IDevice>& result) {
+        ::android::hardware::audio::V7_0::IDevicesFactory::getService()->openPrimaryDevice(
+                [&](::android::hardware::audio::V7_0::Result, const sp<::android::hardware::audio::V7_0::IPrimaryDevice>& result) {
                     audioDevice = result;
         });
     }
@@ -45,9 +45,6 @@ int main() {
 
         audioDevice->setParameters({}, {{"g_call_sim_slot", value}});
     }
-
-    if (audioDevice != nullptr)
-        audioDevice->close();
 
     SetProperty("vendor.calls.parameter_state", "1");
 
