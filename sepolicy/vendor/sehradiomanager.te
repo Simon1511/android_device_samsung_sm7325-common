@@ -1,0 +1,6 @@
+# sehradiomanager.te
+
+type sehradiomanager, domain, halserverdomain, hal_telephony, hal_telephony_server;
+type sehradiomanager_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(sehradiomanager)
