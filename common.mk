@@ -16,6 +16,13 @@
 
 COMMON_PATH := device/samsung/sm7325-common
 
+# Add common definitions for Qualcomm
+$(call inherit-product, hardware/qcom-caf/common/common.mk)
+
+# Override the symlink from Qcom
+PRODUCT_PACKAGES += \
+    rfs_msm_mpss_readonly_firmware_symlink_samsung_sm7325
+
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 
 # Partitions
