@@ -41,6 +41,7 @@ vendor/lib/rfsa/adsp/libmctfengine_skel.so
 vendor/lib/rfsa/adsp/bm2n12.bin
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib64/libSNPE.so
+vendor/lib64/libc++_shared.so
 vendor/lib64/libsnpe_wrapper.so
 vendor/lib64/libsnpe_dsp_domains_v3.so
 
@@ -77,9 +78,7 @@ vendor/lib/libdrc.so
 vendor/lib/libspkrprot.so
 vendor/lib/libprofileparamstorage.so
 vendor/lib/libspatializerparamstorage.so
-vendor/lib64/libspatializerparamstorage.so
 vendor/lib/spatializer-aidl-V1-cpp.so
-vendor/lib64/spatializer-aidl-V1-cpp.so
 vendor/etc/audio_tuning_mixer.txt
 
 # Soundtrigger
@@ -104,12 +103,6 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libswspatializer.so
-vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libswspatializer.so
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
 
@@ -127,8 +120,6 @@ vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 vendor/lib/libidl.so
 vendor/lib64/libidl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
-vendor/lib/libqti_vndfwk_detect.so
-vendor/lib64/libqti_vndfwk_detect.so
 vendor/lib/libbthost_if.so
 vendor/lib64/libbthost_if.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
@@ -141,11 +132,11 @@ vendor/firmware/msnv11.bin
 # Camera
 vendor/lib/libsensorndkbridge.so
 vendor/lib64/libsensorndkbridge.so
-vendor/lib/libsuper_night_interface.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libscveCommon.so
 vendor/lib/libuniplugin.so
 vendor/lib/libIDDQD_core.so
+vendor/lib/libLocalTM_preview_core.so
 vendor/lib/libHprFace_GAE_api.camera.samsung.so
 vendor/lib/libcamxswprocessalgo.so
 vendor/lib/libscveObjectTracker.so
@@ -159,13 +150,12 @@ vendor/lib/libexifa.camera.samsung.so
 vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxqsatalgo.so
 vendor/lib/libarcsoft_super_night_raw.so
-vendor/lib/libjpegencoder_sw.unifunc.so
 vendor/lib/hw/camera.unihal.default.so
 vendor/lib/libbeautyshot.arcsoft.so
 vendor/lib/libvideobeauty.arcsoft.so
 vendor/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so
 vendor/lib/libfocuspeaking.so
-vendor/lib/libscaler_hw.unifunc.so
+vendor/lib/libscaler_hw.unifunc.so;DISABLE_DEPS
 vendor/lib/libFace_Landmark_API.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libscveCommon_stub.so
@@ -178,18 +168,18 @@ vendor/lib/libBeauty_v4.camera.samsung.so
 vendor/lib/libsensorlistener.so
 vendor/lib/libvideobeauty_interface.so
 vendor/lib/libpadm.so
+vendor/lib/libsavscmn.so
 vendor/lib/libfocuspeaking_interface.so
 vendor/lib/libimage_enhancement.arcsoft.so
 vendor/lib/libvideobeauty.uniplugin@1.0.so
 vendor/lib/libscveObjectSegmentation.so
-vendor/lib/liblivefocus_capture_engine.so
-vendor/lib/libsmartfocus_interface.so
+vendor/lib/liblivefocus_capture_engine.so;DISABLE_DEPS
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libhandgesture.arcsoft.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/liblivefocus_preview_engine.so
-vendor/lib/libDualCamBokehCapture.camera.samsung.so
-vendor/lib/libhypermotion_interface.so
+vendor/lib/libDualCamBokehCapture.camera.samsung.so;DISABLE_DEPS
+vendor/lib/libhypermotion_interface.so;DISABLE_DEPS
 vendor/lib/liblivefocus_preview_interface.so
 vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/liblivefocus_capture_interface.so
@@ -204,12 +194,12 @@ vendor/lib/unihal_main@2.15.so
 vendor/lib/unihal_cutils@2.15.so
 vendor/lib/unihal_uniplugin@1.0.so
 vendor/lib/libface_landmark.arcsoft.so
-vendor/lib64/libsuper_night_interface.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libscveCommon.so
 vendor/lib64/libformatConverter.unifunc.so
 vendor/lib64/libuniplugin.so
 vendor/lib64/libIDDQD_core.so
+vendor/lib64/libLocalTM_preview_core.so
 vendor/lib64/libHprFace_GAE_api.camera.samsung.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libscveObjectTracker.so
@@ -218,20 +208,18 @@ vendor/lib64/libimagecodec_native.quram.so
 vendor/lib64/libHandGesture.camera.samsung.so
 vendor/lib64/libhand_interaction.uniplugin@1.0.so
 vendor/lib64/libarcsoft_picportrait_video.so
-vendor/lib64/libDLInterface.camera.samsung.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libexifa.camera.samsung.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxqsatalgo.so
 vendor/lib64/libarcsoft_super_night_raw.so
-vendor/lib64/libjpegencoder_sw.unifunc.so
 vendor/lib64/hw/camera.unihal.default.so
 vendor/lib64/libbeautyshot.arcsoft.so
 vendor/lib64/libvideobeauty.arcsoft.so
 vendor/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libfocuspeaking.so
-vendor/lib64/libscaler_hw.unifunc.so
+vendor/lib64/libscaler_hw.unifunc.so;DISABLE_DEPS
 vendor/lib64/libFace_Landmark_API.camera.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
 vendor/lib64/libscveCommon_stub.so
@@ -245,18 +233,18 @@ vendor/lib64/libBeauty_v4.camera.samsung.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libvideobeauty_interface.so
 vendor/lib64/libpadm.so
+vendor/lib64/libsavscmn.so
 vendor/lib64/libfocuspeaking_interface.so
 vendor/lib64/libimage_enhancement.arcsoft.so
 vendor/lib64/libvideobeauty.uniplugin@1.0.so
 vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/liblivefocus_capture_engine.so
-vendor/lib64/libsmartfocus_interface.so
+vendor/lib64/liblivefocus_capture_engine.so;DISABLE_DEPS
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libhandgesture.arcsoft.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/liblivefocus_preview_engine.so
-vendor/lib64/libDualCamBokehCapture.camera.samsung.so
-vendor/lib64/libhypermotion_interface.so
+vendor/lib64/libDualCamBokehCapture.camera.samsung.so;DISABLE_DEPS
+vendor/lib64/libhypermotion_interface.so;DISABLE_DEPS
 vendor/lib64/liblivefocus_preview_interface.so
 vendor/lib64/libhigh_dynamic_range_bokeh.so
 vendor/lib64/liblivefocus_capture_interface.so
@@ -289,8 +277,6 @@ vendor/lib/libos.so
 vendor/lib64/libos.so
 vendor/lib/libthreadutils.so
 vendor/lib64/libthreadutils.so
-vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib/libchilog.so
@@ -319,10 +305,10 @@ vendor/lib/libbitmlengine.so
 vendor/lib64/libbitmlengine.so
 vendor/lib/libbitmlenginev2.so
 vendor/lib64/libbitmlenginev2.so
-vendor/lib/com.qti.chiusecaseselector.so
-vendor/lib64/com.qti.chiusecaseselector.so
-vendor/lib/libcamerapostproc.so
-vendor/lib64/libcamerapostproc.so
+vendor/lib/com.qti.chiusecaseselector.so;DISABLE_DEPS
+vendor/lib64/com.qti.chiusecaseselector.so;DISABLE_DEPS
+vendor/lib/libcamerapostproc.so;DISABLE_DEPS
+vendor/lib64/libcamerapostproc.so;DISABLE_DEPS
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib/libipebpsstriping170.so
@@ -432,7 +418,7 @@ vendor/lib64/hw/gatekeeper.mdfpp.so|7b185aca7ae62e2b7104d36740587a351cc4867e
 -vendor/app/CACertService/CACertService.apk
 vendor/lib/libjnihelper.so
 vendor/lib64/libjnihelper.so
-vendor/bin/lowi-server
+vendor/bin/lowi-server;DISABLE_DEPS
 vendor/bin/xtra-daemon
 vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
 vendor/bin/loc_launcher
@@ -627,8 +613,8 @@ vendor/gpu/kbc/unified_ksqs.bin
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
 -vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
-vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|5a07c2b5878f4bb96d8b37c8b46b4aa86d7c7268
+vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_DEPS
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_DEPS|5a07c2b5878f4bb96d8b37c8b46b4aa86d7c7268
 vendor/lib/vendor.samsung.hardware.health@2.0.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
@@ -822,8 +808,8 @@ vendor/etc/plmn_se13.bin
 vendor/etc/mtu-conf.xml
 vendor/lib/libconfigdb.so
 vendor/lib64/libconfigdb.so
-vendor/lib/libdsi_netctrl.so
-vendor/lib64/libdsi_netctrl.so
+vendor/lib/libdsi_netctrl.so;DISABLE_DEPS
+vendor/lib64/libdsi_netctrl.so;DISABLE_DEPS
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
@@ -845,7 +831,7 @@ vendor/etc/locale/plmn_delta_zh-rHK.bin
 vendor/etc/plmn_delta_attaio.bin
 vendor/etc/sec_config_oem
 vendor/etc/pdpcnt-conf.xml
-vendor/lib64/libnlnetmgr.so
+vendor/lib64/libnlnetmgr.so;DISABLE_DEPS
 vendor/lib/libqrtr.so
 vendor/lib64/libqrtr.so
 vendor/lib/libsystem_health_mon.so
@@ -1049,7 +1035,7 @@ vendor/lib/libqisl.so
 vendor/lib/libops.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
-vendor/lib/libsecureui_svcsock.so
+vendor/lib/libsecureui_svcsock.so;DISABLE_DEPS
 vendor/lib/libssd.so
 vendor/lib/libspl.so
 vendor/lib/vendor.qti.hardware.qseecom@1.0.so
@@ -1065,7 +1051,7 @@ vendor/lib64/libqisl.so
 vendor/lib64/libops.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libsecureui_svcsock.so;DISABLE_DEPS
 vendor/lib64/libssd.so
 vendor/lib64/libspl.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
